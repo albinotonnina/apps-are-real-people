@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <title>Apps are real people</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        height: 100vh;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction: column;
+        margin: 16px;
+      }
+
+      body:before{
+         content: 'Hint: apps are real people, but you need to be an expert to know that.' 
+      }
+      
+      @media (max-width:1281px) { 
+      body:after{
+        color: red;
+        margin-top: 32px;
+        content: 'Are you on your phone right now? You need a laptop!' 
+      }
+}
+
+      
+      #root{
+        display: none
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
