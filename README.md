@@ -1,1 +1,2 @@
-# Code is alive
+# Apps are real people and this apps prove that. 
+## You have to be a real expert to find out if this is true...
